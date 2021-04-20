@@ -14,15 +14,15 @@ public class Connect {
     public ResultSet rs; // Responsavel por armazenar o resultado de um pesquisa passada para o statement;
     private String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
     private String caminho = "jdbc:sqlserver://localhost:1433;databaseName=spotper"; // O "control" representa a minha database 
-    private String usuario = "SA";
-    private String senha = "87970551aA@";
+    private String usuario = //usuários aqui;
+    private String senha = //senha aqui;
     public Connection conexao; // Responsavel por realizar a conexão com o banco de dados;
 
     public Connect() {
         driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
         caminho = "jdbc:sqlserver://localhost:1433;databaseName=spotper"; // O "control" representa a minha database 
-        usuario = "SA";
-        senha = "87970551aA@";
+        usuario = //usuários aqui;
+        senha = //senha aqui;
     }
     
     public void conectar() { // Metodo responsavel por realizar a conexão;
